@@ -28,7 +28,6 @@ body {
 }
 
 @media (max-width: 48em) {
-
   .headertxt, .logo{
     text-align: center;
   }
@@ -43,40 +42,35 @@ body {
     font-weight: 400;
     margin-top: 0.5em;
   }
-
 }
 
 @media (min-width: 48em) { 
-
-  .headertxt {
+ .headertxt {
     text-align: right;
   }
 
-  .logo {
+ .logo {
     text-align: left;
   }
 
-  .headertxt h1 {
+ .headertxt h1 {
     font-size: 3em;
     font-weight: 100;
     margin-bottom: 0;
   }
 
-  .headertxt h3 {
+ .headertxt h3 {
     font-weight: 400;
     margin-top: 0.5em;
   }
-
 }
 
 /* Banner image styles */
-
 main img {
   width: 100%;
 }
 
 /*  The below css is for Footer  */
-
 footer h2 {
   text-align: left;
   font-size: 30px;
